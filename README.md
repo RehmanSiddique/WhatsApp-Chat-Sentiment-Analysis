@@ -46,11 +46,11 @@ The required libraries are:
  4. Download the .txt file.
 # 3. Analyze the Data
 Once the chat file is uploaded, you will be able to explore the following:
-#   i. User Selection
-#   ii. Statistics:  
-#   iii. Activity: 
-#   iv. WordCloud:  
-#   v. Sentiment:  
+    i. User Selection
+   ii. Statistics:  
+   iii. Activity: 
+   iv. WordCloud:  
+   v. Sentiment:  
 # Analysis Types
   # 1. Chat Statistics
     Displays the total number of messages, total words, media shared, links, and deleted messages.
