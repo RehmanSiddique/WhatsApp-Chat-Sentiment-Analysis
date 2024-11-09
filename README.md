@@ -11,24 +11,28 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
   8. Weekly Activity Heatmap
 # Installation
 To use this application, follow the instructions below.
-
-# 1. Clone the Repository
-git clone https://github.com/your-username/whatsapp-chat-analyzer.git
-cd whatsapp-chat-analyzer
-# 2. Install Required Packages
+# 1. Install Required Packages
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 The required libraries are:
 
-streamlit – For building the web app interface.
-pandas – For data manipulation and analysis.
-nltk – For Natural Language Processing (Sentiment Analysis).
-seaborn, matplotlib – For data visualization.
-urlextract – For extracting URLs from messages.
-emoji – For extracting and counting emojis in messages.
-wordcloud – For generating the word cloud.
+# streamlit : 
+  For building the web app interface.
+# pandas :
+  For data manipulation and analysis.
+# nltk :
+  For Natural Language Processing (Sentiment Analysis).
+# seaborn, matplotlib :  
+  For data visualization.
+# urlextract :
+  For extracting URLs from messages.
+# emoji :
+  For extracting and counting emojis in messages.
+# wordcloud –
+  For generating the word cloud.
+  
 # Usage
 # 1. Run the Streamlit app
   Once the required libraries are installed, you can run the Streamlit app by using the following command:
