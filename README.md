@@ -66,9 +66,6 @@ Once the chat file is uploaded, you will be able to explore the following:
 
 ## 8. Sentiment Analysis
   Categorizes messages as positive, negative, or neutral based on the content of the message, and displays the results as a pie chart and a sentiment matrix.
-# Example Screenshots
-## 1. User Activity Visualization
-## 2. Sentiment Analysis Pie Chart
-## 3. Emoji Distribution
+ 
 
 
