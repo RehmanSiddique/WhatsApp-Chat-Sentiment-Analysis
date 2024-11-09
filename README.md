@@ -45,9 +45,9 @@ Once the chat file is uploaded, you will be able to explore the following:
    iv. WordCloud:  
    v. Sentiment:  
 # Analysis Types
-  ## 1. Chat Statistics
+## 1. Chat Statistics
     Displays the total number of messages, total words, media shared, links, and deleted messages.
-  ## 2. User Activity
+## 2. User Activity
   Displays the number of messages sent by each user, along with the percentage of the total messages.
 ## 3. Emoji Usage
   Shows the most frequently used emojis and their count in the chat.
