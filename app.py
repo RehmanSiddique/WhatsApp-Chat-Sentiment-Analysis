@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import seaborn as sns
 import functions
+import sentiment_analysis
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
@@ -116,8 +117,26 @@ if file:
             fig, ax = plt.subplots()
             ax = sns.heatmap(user_heatmap)
             st.pyplot(fig)
+             
             # Sentiment Analysis
-            st.title("Sentiment Analysis")
-            functions.get_sentiment(df)
+     
+    
+            # Sidebar options for configuring thresholds
+            st.sidebar.header("Sentiment Thresholds")
+            pos_threshold = st.sidebar.slider("Positive Threshold", 0.0, 1.0, 0.3)
+            neg_threshold = st.sidebar.slider("Negative Threshold", 0.0, 1.0, 0.3)
+    
+             # Select aggregation level (e.g., User or Date)
+            aggregation_level = st.sidebar.selectbox("Aggregate by", ["User", "Date"])
+    
+            # Generate and display the sentiment matrix
+            sentiment_matrix = sentiment_analysis.generate_sentiment_matrix(df, pos_threshold, neg_threshold, aggregation_level)
+            if sentiment_matrix is not None:
+                sentiment_analysis.plot_sentiment_heatmap(sentiment_matrix) 
+            st.sidebar.header("Sentiment Analysis Configuration") 
+            st.subheader("Sentiment Analysis with Configurable Thresholds")
+            sentiment_analysis.get_sentiment(df, pos_threshold, neg_threshold) 
+             
+
     except Exception as e:
         st.subheader("Unable to Process Your Request")

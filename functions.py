@@ -1,8 +1,6 @@
 import re
 from collections import Counter
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-import nltk
-nltk.download('vader_lexicon')
 import pandas as pd
 import seaborn as sns
 import streamlit as st
@@ -176,46 +174,31 @@ def create_wordcloud(df):
     df['Message'] = df['Message'].apply(remove_stop_words)
     df_wc = wc.generate(df['Message'].str.cat(sep=" "))
     return df_wc
-#Get Sentiment Analysis
-nltk.download('vader_lexicon')
-def get_sentiment(df):
-    df['Date']=pd.to_datetime(df['Date'])
-    data=df.dropna()
-    sentiments=SentimentIntensityAnalyzer()
-    data["positive"]=[sentiments.polarity_scores(i)["pos"] for i in df["Message"]]
-    data["negative"]=[sentiments.polarity_scores(i)["neg"] for i in df["Message"]]
-    data["neutral"]=[sentiments.polarity_scores(i)["neu"] for i in df["Message"]]
-    # data["positive"]=abs( data["positive"]) 
-    x=sum(data["positive"])
-    y=sum(data["negative"])
-    z=sum(data["neutral"])
-    sizes = [x,y,z]
-    labels = ['Positive chat','Negative chat', 'Neutral chat']
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes ,labels=labels, autopct='%1.1f%%')
-    st.pyplot(fig1)
-    # Calculate the total for percentage calculation
-    # Streamlit Title
-    st.title("Sentiment Distribution Matrix (Percentage)")
-    total = x + y + z
 
-    # Create a sentiment percentage matrix
-    matrix_data = np.array([[x / total * 100, y / total * 100, z / total * 100]])
+ 
+ 
 
-    # Create a DataFrame for better visualization
-    df_matrix = pd.DataFrame(matrix_data, columns=["Positive", "Negative", "Neutral"])
-    fig, ax = plt.subplots(figsize=(8, 6))
-    # Define a custom color map for the matrix (green for positive, red for negative, gray for neutral)
-    colors = ["#8BC34A", "#8B0000", "#9E9E9E"]  # Green, Red, Gray for Positive, Negative, Neutral
-    sns.set(font_scale=1.5)
 
-    # Create a heatmap with annotations, adding % sign to each value
-  
-    sns.heatmap(df_matrix, annot=df_matrix.applymap(lambda v: f'{v:.1f}%'), fmt='', cmap="coolwarm", cbar=False)
-    ax.set_title("Sentiment Distribution Matrix (Percentage)")
-    ax.set_xlabel("Sentiments")
-    ax.set_ylabel("Percentage (%)")
-    st.pyplot(fig)
+ 
+# Configuration matrix to display sentiment counts as a heatmap
+# def configuration_matrix(sentiment_counts):
+#     st.title("Sentiment Distribution Matrix (Count)")
+    
+#     # Create matrix data array for heatmap
+#     matrix_data = np.array([[sentiment_counts.get('Positive', 0),
+#                              sentiment_counts.get('Negative', 0),
+#                              sentiment_counts.get('Neutral', 0)]])
+
+#     # DataFrame for visualization
+#     df_matrix = pd.DataFrame(matrix_data, columns=["Positive", "Negative", "Neutral"])
+
+#     # Plot Heatmap
+#     fig, ax = plt.subplots(figsize=(8, 6))
+#     sns.heatmap(df_matrix, annot=True, fmt='d', cmap="coolwarm", cbar=False)
+#     ax.set_title("Sentiment Distribution Matrix (Count)")
+#     ax.set_xlabel("Sentiments")
+#     ax.set_ylabel("Counts")
+#     st.pyplot(fig)
      
     
 
