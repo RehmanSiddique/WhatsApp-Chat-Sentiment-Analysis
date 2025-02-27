@@ -1,26 +1,22 @@
 # WhatsApp-Sentiment-Analysis-
 This app provides insights and statistical analysis of WhatsApp chat exports, enabling you to explore different aspects of the chat data, such as user activity, sentiment, emojis used, word frequency, and more. It leverages Natural Language Processing (NLP) techniques to analyze the sentiment of messages and visualize key metrics, like message counts, media shared, and links.
 # Features
-  1. Chat Statistics
-     <img src="https://github.com/user-attachments/assets/87fc2a16-74a4-4e17-976c-ce93d8488ed5" alt="Image"  />
- 2. User Activity
-     <img src="https://github.com/user-attachments/assets/b4ad604d-489b-485e-9433-c0ff82f8c024" alt="Image"  />
+###  1. Chat Statistics
+<img src="https://github.com/user-attachments/assets/87fc2a16-74a4-4e17-976c-ce93d8488ed5" alt="Image"  />
+### 2. User Activity
+<img src="https://github.com/user-attachments/assets/b4ad604d-489b-485e-9433-c0ff82f8c024" alt="Image"  />
       
-   4. Emoji Analysis
-   5.  <img src="https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983" alt="Image"  />
-        6. Most Common Words
-            <img src="https://github.com/user-attachments/assets/6c9c2e29-578a-4513-ad8b-75287116ed8c" alt="Image"  />
-    
-  7. Monthly & Daily Timeline
-      <img src="https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b" alt="Image"  />
- 
-   9. WordCloud
-        <img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
- 
-  11. Sentiment Analysis
-       <img src="https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659" alt="Image"  />
- 
-  13. Weekly Activity Heatmap
+###   3. Emoji Analysis
+<img src="https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983" alt="Image"  />
+###  4. Most Common Words
+<img src="https://github.com/user-attachments/assets/6c9c2e29-578a-4513-ad8b-75287116ed8c" alt="Image"  />
+### 5. Monthly & Daily Timeline
+<img src="https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b" alt="Image"  />
+### 6. WordCloud
+<img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
+###  7. Sentiment Analysis
+<img src="https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659" alt="Image"  />
+### 8. Weekly Activity Heatmap
        <img src="https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1" alt="Image"  />
  
      
