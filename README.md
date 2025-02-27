@@ -8,14 +8,15 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
    3. Emoji Analysis
      ![Image](https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983)
  4. Most Common Words
-  5. Monthly & Daily Timeline
+    ![Image](https://github.com/user-attachments/assets/6c9c2e29-578a-4513-ad8b-75287116ed8c)
+  6. Monthly & Daily Timeline
 ![Image](https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b)
-   6. WordCloud
+   7. WordCloud
  ![Image](https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f)
   9. Sentiment Analysis
  ![Image](https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659)
   10. Weekly Activity Heatmap
-  ![Image](https://github.com/user-attachments/assets/cdab6d3e-f606-468f-9ec0-dafe9c6683da)
+  ![Image](https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1)
      
 # Installation
 To use this application, follow the instructions below.
