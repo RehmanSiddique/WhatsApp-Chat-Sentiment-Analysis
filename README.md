@@ -20,7 +20,8 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
 <img src="https://github.com/user-attachments/assets/06d3060f-a8df-4ff5-86f3-c91d3cc73c52" alt="Image", width="400"  />
 
 ##  6. WordCloud
-<img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
+<img src="https://github.com/user-attachments/assets/17c53bd4-f98e-4e03-9e9b-827775721628" alt="Image"  />
+
 ##  7. Sentiment Analysis
 <img src="https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659" alt="Image"  />
 ##  8. Weekly Activity Heatmap
