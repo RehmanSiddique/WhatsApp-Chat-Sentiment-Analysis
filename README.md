@@ -16,8 +16,8 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
 <img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
 ###  7. Sentiment Analysis
 <img src="https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659" alt="Image"  />
-### 8. Weekly Activity Heatmap
-       <img src="https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1" alt="Image"  />
+###  8. Weekly Activity Heatmap
+<img src="https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1" alt="Image"  />
  
      
 # Installation
