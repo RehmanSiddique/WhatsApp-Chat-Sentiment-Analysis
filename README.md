@@ -5,8 +5,9 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
 # Features
 ##  1. Chat Statistics
 <img src="https://github.com/user-attachments/assets/87fc2a16-74a4-4e17-976c-ce93d8488ed5" alt="Image"  />
+
 ##  2. User Activity
-      
+<img src="https://github.com/user-attachments/assets/3de46fe9-4d65-4b4d-a838-1bbcc28ea8b7" alt="Image"  />
 ##  3. Emoji Analysis
 <img src="https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983" alt="Image"  />
 ##  4. Most Common Words
