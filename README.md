@@ -16,7 +16,8 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
 <img src="https://github.com/user-attachments/assets/d6e606a0-fb45-485e-b4bc-9aeff8e78e64" alt="Image"  />
 
 ##  5. Monthly & Daily Timeline
-<img src="https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b" alt="Image"  />
+<img src="https://github.com/user-attachments/assets/6b168161-ae14-4ce8-b6a3-c79225381e5a" alt="Image", width="400"  />
+
 ##  6. WordCloud
 <img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
 ##  7. Sentiment Analysis
