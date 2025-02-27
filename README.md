@@ -1,5 +1,6 @@
 # WhatsApp-Sentiment-Analysis-
 This app provides insights and statistical analysis of WhatsApp chat exports, enabling you to explore different aspects of the chat data, such as user activity, sentiment, emojis used, word frequency, and more. It leverages Natural Language Processing (NLP) techniques to analyze the sentiment of messages and visualize key metrics, like message counts, media shared, and links.
+https://github.com/user-attachments/assets/0d43f59d-1ebf-47d8-95fe-354fd3b3e30e
 # Features
 ##  1. Chat Statistics
 <img src="https://github.com/user-attachments/assets/87fc2a16-74a4-4e17-976c-ce93d8488ed5" alt="Image"  />
