@@ -5,19 +5,24 @@ This app provides insights and statistical analysis of WhatsApp chat exports, en
      <img src="https://github.com/user-attachments/assets/87fc2a16-74a4-4e17-976c-ce93d8488ed5" alt="Image"  />
  2. User Activity
      <img src="https://github.com/user-attachments/assets/b4ad604d-489b-485e-9433-c0ff82f8c024" alt="Image"  />
-     ![Image](https://github.com/user-attachments/assets/b4ad604d-489b-485e-9433-c0ff82f8c024)
+      
    4. Emoji Analysis
-     ![Image](https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983)
- 5. Most Common Words
-    ![Image](https://github.com/user-attachments/assets/6c9c2e29-578a-4513-ad8b-75287116ed8c)
-  6. Monthly & Daily Timeline
-![Image](https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b)
-   7. WordCloud
- ![Image](https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f)
-  9. Sentiment Analysis
- ![Image](https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659)
-  10. Weekly Activity Heatmap
-  ![Image](https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1)
+   5.  <img src="https://github.com/user-attachments/assets/6ed105f6-3750-491f-832b-d2f78e2e4983" alt="Image"  />
+        6. Most Common Words
+            <img src="https://github.com/user-attachments/assets/6c9c2e29-578a-4513-ad8b-75287116ed8c" alt="Image"  />
+    
+  7. Monthly & Daily Timeline
+      <img src="https://github.com/user-attachments/assets/8091b35e-b419-4a5b-bf27-57e466dba01b" alt="Image"  />
+ 
+   9. WordCloud
+        <img src="https://github.com/user-attachments/assets/f5269224-62d4-4cd5-adc9-01459110443f" alt="Image"  />
+ 
+  11. Sentiment Analysis
+       <img src="https://github.com/user-attachments/assets/f5ee47b2-7a9e-4ace-a01c-2293623ca659" alt="Image"  />
+ 
+  13. Weekly Activity Heatmap
+       <img src="https://github.com/user-attachments/assets/4c4b9781-ad79-462b-8d39-98a74a660ea1" alt="Image"  />
+ 
      
 # Installation
 To use this application, follow the instructions below.
